@@ -12,7 +12,7 @@ $usuarios = [
     ],
     [
         'id' => 2,
-        'nome' => 'Maria Oliveira',
+        'nome' => 'Maria PINHO',
         'email' => 'maria@exemplo.com'
     ],
     [
@@ -27,3 +27,4 @@ $json_response = json_encode($usuarios, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICO
 echo $json_response;
 
 ?>
+

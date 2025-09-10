@@ -7,18 +7,18 @@ header('Access-Control-Allow-Origin: *');
 $usuarios = [
     [
         'id' => 1,
-        'nome' => 'Carlos a Silva',
-        'email' => 'carlos@exemplo.com'
+        'nome' => 'luis o pinho',
+        'email' => 'pinho@exemplo.com'
     ],
     [
         'id' => 2,
-        'nome' => 'Maria PINHO',
-        'email' => 'maria@exemplo.com'
+        'nome' => 'Maria pinho',
+        'email' => 'mariapinho@exemplo.com'
     ],
     [
         'id' => 3,
-        'nome' => 'Ana Souza',
-        'email' => 'ana@exemplo.com'
+        'nome' => 'Ana pinha',
+        'email' => 'anapinho@exemplo.com'
     ]
 ];
 
@@ -27,4 +27,5 @@ $json_response = json_encode($usuarios, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICO
 echo $json_response;
 
 ?>
+
 
